@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(0, 255, 191), rgb(255, 136, 0));
+}
+.contt {
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+  margin-top: 10vh;
+  box-shadow: 0 0 20px rgb(255, 0, 0);
+  background-color: rgb(0, 173, 204);
+}
+.traingle {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border: 150px solid rgb(172, 211, 218);
+  border-top: 150px solid transparent;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid rgb(0, 255, 13);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+#traingle2 {
+  border-bottom: 150px solid rgb(9, 95, 224);
+  position: absolute;
+  left: 39%;
+  top: 0%;
+}
+#traingle3 {
+  border-bottom: 150px solid rgb(255, 38, 0);
+  position: absolute;
+  left: 39%;
+  top: -10%;
+}
+.Base {
+  height: 50px;
+  width: 10px;
+  background-color: rgb(85, 40, 8);
+  margin: auto;
+}
